@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CS2-MAP.unity
     guid: 16f41f08a9e448a48a34d1070cfe7c74
+  - enabled: 1
+    path: Assets/Scenes/PEAK-MAP.unity
+    guid: 30b039a93f7775d448e5d0be0b4c2407
+  - enabled: 1
+    path: Assets/Scenes/REPO-MAP.unity
+    guid: af83f92a90da10b47ba91d29d7ce004b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
