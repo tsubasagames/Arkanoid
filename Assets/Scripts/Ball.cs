@@ -27,12 +27,20 @@ public class Ball : MonoBehaviour
             {
                 nextlevel1();
             }
+            if (SceneManager.GetActiveScene().name == "PEAK-MAP")
+            {
+                nextlevel2();
+            }
         }
-
-
     }
     void nextlevel1()
     {
         SceneManager.LoadScene("PEAK-MAP");
     }
+    void nextlevel2()
+    {
+        SceneManager.LoadScene("REPO-MAP");
+    }
+        
+
 }
