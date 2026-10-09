@@ -288,7 +288,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 0.6
 --- !u!50 &737943463
 Rigidbody2D:
   serializedVersion: 5
@@ -304,8 +304,8 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: a11b4e0005a6ba547a5a3ec858e1b05e, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -315,7 +315,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &737943464
 SpriteRenderer:
   serializedVersion: 3
@@ -402,7 +402,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 818ea14b7c5398948bf56d681e8efe15, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Bool
+  m_EditorClassIdentifier: Assembly-CSharp::Ball
+  InitialSpeed: {x: 5, y: 5}
+  Score: 0
 --- !u!1001 &923526033
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ public class Ball : MonoBehaviour
         ballrigidbody = GetComponent<Rigidbody2D>(); //pacman
     }
 
-    // Update is called once per frame
+    // update is called once per frame
     void Update()
     {
         if (IsMoving == false) // If Not Moving Enters {
@@ -33,7 +33,31 @@ public class Ball : MonoBehaviour
             }
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D Crash)
+    {
+        if (Crash.gameObject.CompareTag("Block"))
+        {
+            Destroy(Crash.gameObject);
+
+        }
+        if (Crash.gameObject.CompareTag("Wasted"))
+        {
+            GameOver();
+        }
+
+
+
+    }
+  
+    void GameOver()
+    {
+        SceneManager.LoadScene("GameOver");
+
+    }
     void nextlevel1()
+    
+    
     {
         SceneManager.LoadScene("PEAK-MAP");
     }

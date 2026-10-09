@@ -667,6 +667,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 818ea14b7c5398948bf56d681e8efe15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bool
+  InitialSpeed: {x: 5, y: 5}
+  Score: 0
 --- !u!58 &1319889153
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -718,8 +720,8 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: a11b4e0005a6ba547a5a3ec858e1b05e, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -907,6 +909,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 818ea14b7c5398948bf56d681e8efe15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ball
+  InitialSpeed: {x: 0, y: 0}
+  Score: 0
 --- !u!1001 &2050949885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -921,7 +925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 927377771032177927, guid: ce0d55f3bd2fc6243916e917931a552a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.509014
+      value: -5.54
       objectReference: {fileID: 0}
     - target: {fileID: 927377771032177927, guid: ce0d55f3bd2fc6243916e917931a552a, type: 3}
       propertyPath: m_LocalPosition.z
