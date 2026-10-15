@@ -6,7 +6,8 @@ public class Ball : MonoBehaviour
     public Vector2 InitialSpeed;
     private Rigidbody2D ballrigidbody;
     private bool IsMoving;
-    public int Score;
+    public int Scores;
+    public Score sumscore;
     void Start()
     {
         ballrigidbody = GetComponent<Rigidbody2D>(); //pacman
@@ -39,6 +40,8 @@ public class Ball : MonoBehaviour
         if (Crash.gameObject.CompareTag("Block"))
         {
             Destroy(Crash.gameObject);
+
+            sumscore.count(Scores);
 
         }
         if (Crash.gameObject.CompareTag("Wasted"))
