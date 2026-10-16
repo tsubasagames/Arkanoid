@@ -246,9 +246,10 @@ GameObject:
   - component: {fileID: 737943463}
   - component: {fileID: 737943462}
   - component: {fileID: 737943466}
+  - component: {fileID: 737943467}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -406,6 +407,22 @@ MonoBehaviour:
   InitialSpeed: {x: 5, y: 5}
   Scores: 0
   sumscore: {fileID: 0}
+--- !u!114 &737943467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737943461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fe270217a7f78458cd7c88f5b591cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallWastedSound
+  wastedClip: {fileID: 8300000, guid: 80f28564a260c5347b955c9beddc804f, type: 3}
+  wastedClip2: {fileID: 8300000, guid: 468e44a3cbd41a741bea3370f2150fc6, type: 3}
+  volume: 1
+  volume2: 1
 --- !u!1 &817553917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1352,7 +1369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 927377771032177927, guid: ce0d55f3bd2fc6243916e917931a552a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.49
+      value: -5.45
       objectReference: {fileID: 0}
     - target: {fileID: 927377771032177927, guid: ce0d55f3bd2fc6243916e917931a552a, type: 3}
       propertyPath: m_LocalPosition.z

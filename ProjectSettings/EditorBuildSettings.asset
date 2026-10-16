@@ -14,5 +14,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/REPO-MAP.unity
     guid: af83f92a90da10b47ba91d29d7ce004b
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 415cc22e51e774642a372c1f3e838d83
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: d4cb85d8dff406e48b9205b8a93d95f4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
