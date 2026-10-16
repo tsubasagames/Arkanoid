@@ -405,8 +405,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ball
   InitialSpeed: {x: 5, y: 5}
-  Scores: 0
-  sumscore: {fileID: 0}
+  Scores: 1
+  sumscore: {fileID: 817553921}
 --- !u!114 &737943467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,6 +515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b39df8c089f40b439cfb09bd317bd3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Score
+  score: 0
   ScoreTextParamedic: {fileID: 817553919}
 --- !u!1001 &923526033
 PrefabInstance:
@@ -825,63 +826,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1210862131
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 566670079257212450, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 566670079257212450, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 566670079257212450, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 566670079257212450, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 566670079257212450, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 566670079257212450, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 566670079257212450, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 566670079257212450, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 566670079257212450, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 566670079257212450, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1572040232239246130, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
-      propertyPath: m_Name
-      value: Brick
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7854d43260dd5c64a8be53e0db1080b5, type: 3}
 --- !u!1001 &1273365868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1420,7 +1364,6 @@ SceneRoots:
   - {fileID: 1494092179}
   - {fileID: 737943465}
   - {fileID: 5789681194020316688}
-  - {fileID: 1210862131}
   - {fileID: 1075825957}
   - {fileID: 103463709}
   - {fileID: 685810883}

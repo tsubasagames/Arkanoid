@@ -48,6 +48,7 @@ public class Ball : MonoBehaviour
         // break block and add points
         if (Crash.gameObject.CompareTag("Block"))
         {
+            Debug.Log("1 The Script Is Working" + Scores);
             Destroy(Crash.gameObject);
 
             sumscore.count(Scores);
