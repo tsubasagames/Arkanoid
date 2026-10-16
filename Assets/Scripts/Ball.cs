@@ -35,7 +35,7 @@ public class Ball : MonoBehaviour
             {
                 nextlevel2();
             }
-            // homework addition: transition to victory screen when final map is cleared
+            // transition to victory screen when final map is cleared
             if (SceneManager.GetActiveScene().name == "REPO-MAP")
             {
                 winGame();
